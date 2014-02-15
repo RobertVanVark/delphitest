@@ -1,1 +1,1 @@
-web: target/bin/DelphiOracle
+web: sh target/bin/DelphiOracle
