@@ -11,10 +11,10 @@ public class OracleGenerator {
 			return "Continuous Delivery";
 		}
 		if (query.contains("stack")) {
-			throw new RuntimeException("testing purposes");
+			throw new RuntimeException("testing purpose");
 		}
 		if (query.contains("CI")) {
-			return "Continuous Delivery (testing purposes)";
+			return "Continuous Delivery (testing purpose)";
 		}
 		return "";
 	}
